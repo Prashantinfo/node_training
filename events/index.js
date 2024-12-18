@@ -26,7 +26,7 @@
 // eventEmitter.emit('myEvent', "Event occurred");
 
 
-//------------------Asynchronous event handle usinf setImediate--------------------//
+//------------------Asynchronous event handle usig setimmediate------//
 
 // Importing events
 const EventEmitter = require('events');
