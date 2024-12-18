@@ -28,10 +28,8 @@
 
 //------------------Asynchronous event handle usig setimmediate------//
 
-// Importing events
 const EventEmitter = require('events');
 
-// Initializing event emitter instances 
 var eventEmitter = new EventEmitter();
 
 eventEmitter.on('myEvent', (msg) => {
