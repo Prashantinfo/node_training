@@ -43,7 +43,7 @@ writableStream.on('error', (err) => {
     console.error('Stream error:', err);
 });
 
-//----------------pping stream------------------//
+//----------------piping stream------------------//
 var fs = require('fs');
 
 var readableStream = fs.createReadStream('example.txt');
